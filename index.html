@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Los Angeles</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <script src="js/app.js" defer></script>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.css"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header class="main-header">
+                <div class="layers">
+                    <div class="layer_header">
+                        <div class="layers_caption">Welcome to California</div>
+                        <div class="layers_title">Los Angeles</div>
+                    </div>
+                    <div class="layer layers_base" style="background-image: url(img/q.png);"></div>
+                    <div class="layer layers_middle"  style="background-image: url(img/la_hollywood.png);"></div>
+                    <div class="layer layers_front2"  style="background-image: url(img/la_front2.png);"></div>
+                    <div class="layer layers_front" style="background-image: url(img/la_front.png);"></div>
+                </div>
+            </header>
+            
+            <article class="main-article" style="background-image: url(img/la2.png);">
+               <div class="main-article__content">
+                   <h2 class="main-article__header">LA</h2>
+                   <p class="main-article_paragraph">Los Angeles is the commercial, financial, and cultural center of Southern California.
+                       <br>Los Angeles is the largest city in the state of California, the second most populous city in the United States after New York City, and one of the world's most populous megacities.
+                       With a population of roughly 3.9 million residents within the city limits as of 2020,<br>Los Angeles is known for its Mediterranean climate, ethnic and cultural diversity, being the home of the Hollywood film industry, and its sprawling metropolitan area.</p>
+               </div>
+               <div class="copy">© winsanity</div>
+            </article>
+
+            <div class="slider">
+                <h2 class="legends_title">Legends of Los Angeles</h2>
+                <swiper-container class="gallery swiper-container mySwiper" pagination="false" effect="coverflow" grab-cursor="true" centered-slides="true"
+                    slides-per-view="auto" coverflow-effect-rotate="25" coverflow-effect-stretch="0" coverflow-effect-depth="500"
+                    coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+                    <swiper-slide class="gallery_item swiper-slide">
+                        <img src="img/slider/dicaprio.png" alt="alt">
+                        <div class="text">
+                            <h3 class="title">Leonardo DiCaprio</h3>
+                            <p>Actor / film producer</p>
+                            <a href="https://en.wikipedia.org/wiki/Leonardo_DiCaprio" target="_blank">more</a>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="gallery_item swiper-slide">
+                        <img src="img/slider/kobe.png" alt="alt">
+                        <div class="text">
+                            <h3 class="title">Kobe Bryant</h3>
+                            <p>Basketball player</p>
+                            <a href="https://en.wikipedia.org/wiki/Kobe_Bryant" target="_blank">more</a>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="gallery_item swiper-slide">
+                        <img src="img/slider/jolie.png" alt="alt">
+                        <div class="text">
+                            <h3 class="title">Angelina Jolie</h3>
+                            <p>Actress / humanitarian</p>
+                            <a href="https://en.wikipedia.org/wiki/Angelina_Jolie" target="_blank">more</a>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="gallery_item swiper-slide">
+                        <img src="img/slider/monroe.png" alt="alt">
+                        <div class="text">
+                            <h3 class="title">Marilyn Monroe</h3>
+                            <p>Actress / model / singer</p>
+                            <a href="https://en.wikipedia.org/wiki/Marilyn_Monroe" target="_blank">more</a>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="gallery_item swiper-slide">
+                        <img src="img/slider/disney.png" alt="alt">
+                        <div class="text">
+                            <h3 class="title">Walt Disney</h3>
+                            <p>Animator / film producer</p>
+                            <a href="https://en.wikipedia.org/wiki/Walt_Disney" target="_blank">more</a>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
+            </div>
+
+            <div class="footer" id="footer">
+                <div class="info_card">
+                    <p>Find me</p>
+                    <div class="net_logo vk">
+                        <a href="https://vk.com/hello__wrld" target="_blank"><img src="img/info_card/vk.png" alt="vk"></a>
+                        <p>hello__wrld</p>
+                    </div>
+                    <div class="net_logo tg">
+                        <a href="https://t.me/winsanity" target="_blank"><img src="img/info_card/tg.png" alt="tg"></a>
+                        <p>@winsanity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="js/three.min_1.js"></script>
+    <script src="js/vanta.globe.min.js"></script>
+</body>
+</html>
